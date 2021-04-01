@@ -26,7 +26,7 @@ int main() {
             //verzend een bericht naar de subscribers van dit topic
         } else {
             the_code.push_back(s);
-            if (the_code.size() => 4) {
+            if (the_code.size() >= 4) {
                 for (int i = 0; i < the_code.size(); i++) {
                     p.send(the_code[i]);
                 }
