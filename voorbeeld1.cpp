@@ -21,8 +21,8 @@ int main(){
         cout << "? ";
         cin >> s;
     
-        if (s == "stop") break;
-
+        if (s == "stop"){
+            break;
         //verzend een bericht naar de subscribers van dit topic
         }else{
 	        the_code.pushback(s);
