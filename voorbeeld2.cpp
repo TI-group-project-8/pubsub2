@@ -11,6 +11,7 @@ void onrecieve(string message){
 	
 	//schrijf hier de actie die moet worden uitgevoerd met een binnenkomende message
 	cout << message << endl;
+
 }
 
 int main(){
