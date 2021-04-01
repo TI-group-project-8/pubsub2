@@ -12,8 +12,9 @@ void onrecieve(string message){
 	//schrijf hier de actie die moet worden uitgevoerd met een binnenkomende message
 	if(message == "blauw"){
 	    cout<< "kaulo daggoe";
-	}
-	cout << message << endl;
+	}else{
+        cout << message << endl;
+    }
 
 }
 
