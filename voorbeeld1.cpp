@@ -4,6 +4,7 @@
 
 #include "pubsub.h"
 #include <iostream>
+#include <vector>
 
 
 int main(){
@@ -19,7 +20,7 @@ int main(){
 	while(true) {
         cout << "? ";
         cin >> s;
-
+    
         if (s == "stop") break;
 
         //verzend een bericht naar de subscribers van dit topic
