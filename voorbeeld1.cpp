@@ -11,7 +11,7 @@ int main() {
 
     //maak een publisher voor een topic
     //parameter 1: naam van de topic (mag geen spaties bevatten)
-    publisher p("mytopic");
+    publisher p("test_topic");
 
     vector<string> the_code = {};
     string s;

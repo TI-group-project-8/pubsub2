@@ -22,7 +22,7 @@ int main(){
 
 	//maak een subscription met twee parameters 1. de naam van de topic 2. de naam van de functie
 	//de topic-naam mag geen spaties bevatten.
-	subscription s("mytopic", onrecieve);
+	subscription s("test_topic", onrecieve);
 
 	cout << "waiting for messages" << endl;
 	cout << "type \'s\' to stop"  << endl;
