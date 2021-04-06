@@ -19,13 +19,16 @@ void onrecieve(string message, vector<string> nice){
 }
 
 int main(){
-    vector<string> the_code = {};
-    string code;
-    cin<<code<<endl;
+//    poging om vector mee te geven
+//    vector<string> the_code = {};
+//    string code;
+//    cin<<code<<endl;
+//    the_code.push_back(code);
+
 	//maak een subscription met twee parameters 1. de naam van de topic 2. de naam van de functie
 	//de topic-naam mag geen spaties bevatten.
-	subscription s("test_topic", onrecieve(the_code));
- 
+	subscription s("test_topic", onrecieve);
+
 	cout << "waiting for messages" << endl;
 	cout << "type \'s\' to stop"  << endl;
 	cin.get();
