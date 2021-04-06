@@ -30,6 +30,7 @@ int main() {
                 for (int i = 0; i < the_code.size(); i++) {
                     p.send(the_code[i]);
                 }
+                cout<< "----------------" << endl;
                 p.send("----------------");
                 the_code = {};
             }
