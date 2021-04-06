@@ -7,7 +7,7 @@
 
 
 // maak een void-functie met een string-parameter en een zelfgekozen naam
-void onrecieve(string message, vector<string> nice){
+void onrecieve(string message){
 	
 	//schrijf hier de actie die moet worden uitgevoerd met een binnenkomende message
 	if(message == "blauw"){
