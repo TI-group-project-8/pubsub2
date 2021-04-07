@@ -8,23 +8,18 @@
 vector<string> the_code = {};
 // maak een void-functie met een string-parameter en een zelfgekozen naam
 void onrecieve(string message){
-	
-//	//schrijf hier de actie die moet worden uitgevoerd met een binnenkomende message
-//	if(message == "blauw"){
-//	    cout<< "kaulo daggoe"<< endl;
-//	}else{
+
         cout << message << endl;
-    }
-
 }
-
 
 int main(){
 
-    poging om vector mee te geven
+//    poging om vector mee te geven
     string code;
-    cin<<code<<endl;
-    the_code.push_back(code);
+    for (int i = 0; i < 4; ++i) {
+        cin<<code<<endl;
+        the_code.push_back(code);
+    }
 	//maak een subscription met twee parameters 1. de naam van de topic 2. de naam van de functie
 	//de topic-naam mag geen spaties bevatten.
 	subscription s("test_topic", onrecieve);
