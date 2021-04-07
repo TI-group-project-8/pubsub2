@@ -18,7 +18,7 @@ int main() {
     cout << "voer berichten (zonder spaties) in om te verzenden" << endl;
     cout << "\"stop\" om te stoppen" << endl;
     while (true) {
-        cout << "? ";
+        cout << "-";
         cin >> s;
 
         if (s == "stop") {
