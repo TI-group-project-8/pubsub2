@@ -17,7 +17,7 @@ int main(){
 //    poging om vector mee te geven
     string code;
     for (int i = 0; i < 4; ++i) {
-        cin<<code<<endl;
+        cin>>code<<endl;
         the_code.push_back(code);
     }
 	//maak een subscription met twee parameters 1. de naam van de topic 2. de naam van de functie
