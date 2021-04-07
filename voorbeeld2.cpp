@@ -15,11 +15,11 @@ void onrecieve(string message){
 int main(){
 
 //    poging om vector mee te geven
-    string code;
-    for (int i = 0; i < 4; ++i) {
-        cin>>code;
-        the_code.push_back(code);
-    }
+//    string code;
+//    for (int i = 0; i < 4; ++i) {
+//        cin>>code;
+//        the_code.push_back(code);
+//    }
 	//maak een subscription met twee parameters 1. de naam van de topic 2. de naam van de functie
 	//de topic-naam mag geen spaties bevatten.
 	subscription s("test_topic", onrecieve);
